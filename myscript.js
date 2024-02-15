@@ -4,4 +4,70 @@
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 // MILESTONE 2:
 // Stampare le stesse informazioni su DOM sottoforma di stringhe
+// ------- //
 
+
+
+
+//  Questo elemento sarà il contenitore delle carte delle persone
+let container = document.getElementById('card-container')
+
+// Definisco un array chiamato people contenente oggettiriguardanti le informazioni sulle persone
+let peapole = [
+    {
+        nome: 'Wayne ',
+        cognome: 'Barnett',
+        ruolo: 'Founder & CEO',
+        foto:''
+    },
+    {
+        nome: 'Angela  ',
+        cognome: 'Barnett',
+        ruolo: 'Founder & CEO',
+        foto:'' 
+    },
+    {
+        nome: 'Walter',
+        cognome: 'Barnett',
+        ruolo: 'Founder & CEO',
+        foto:''
+    },
+    {
+        nome: 'Angela',
+        cognome: 'Barnett',
+        ruolo: 'Founder & CEO',
+        foto:''
+    },
+    {
+        nome: 'Scott',
+        cognome: 'Barnett',
+        ruolo: 'Founder & CEO',
+        foto:''
+    },
+    {
+        nome: 'Barbara',
+        cognome: 'Barnett',
+        ruolo: 'Founder & CEO',
+        foto:''
+    },
+]
+
+// Inizio ciclo for 
+for (let i = 0; i < peapole.length; i++) {
+    const people = peapole[i];
+    console.log(people.nome);
+
+// Creo una stringa di testo utilizzando il formato template string che lo inserise nell' HTML
+    let peopleText = `
+    <div class="col-4">            
+        <div class="card-people rounded">
+       
+        <img src="img/${people.foto}" class='img-fluid' alt="">
+        <div class="nome">${people.nome}</div>
+        <div class="cognome">${people.cognome}</div>
+        <div class="ruolo">${people.ruolo}</div>
+        </div>
+    </div>
+    `
+    container.innerHTML += peopleText;
+}
