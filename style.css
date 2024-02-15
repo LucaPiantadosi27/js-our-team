@@ -7,7 +7,8 @@
   text-align: center;
   margin-top: 25px;
   border: 2px solid rgba(56, 56, 55, 0.356);
-  
+  padding: 6px;
+  box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.15);
  }
 
 .nome{
@@ -26,7 +27,8 @@
 
 }
 
- .card-people:hover {
+
+.card-people:hover {
   scale: 1.1;
   cursor:pointer;
 }
