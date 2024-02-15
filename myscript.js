@@ -22,33 +22,33 @@ let peapole = [
     },
     {
         nome: 'Angela  ',
-        cognome: 'Barnett',
-        ruolo: 'Founder & CEO',
-        foto:'' 
+        cognome: 'Caroll',
+        ruolo: 'Chief Editor',
+        foto:''  
     },
     {
         nome: 'Walter',
-        cognome: 'Barnett',
-        ruolo: 'Founder & CEO',
-        foto:''
+        cognome: 'Gordon',
+        ruolo: 'Office Manager',
+        foto:''  
     },
     {
         nome: 'Angela',
-        cognome: 'Barnett',
-        ruolo: 'Founder & CEO',
-        foto:''
+        cognome: 'Lopez',
+        ruolo: 'Social Media Manager',
+        foto:''  
     },
     {
         nome: 'Scott',
-        cognome: 'Barnett',
-        ruolo: 'Founder & CEO',
-        foto:''
+        cognome: 'Estrada',
+        ruolo: 'Developer',
+        foto:''  
     },
     {
         nome: 'Barbara',
-        cognome: 'Barnett',
-        ruolo: 'Founder & CEO',
-        foto:''
+        cognome: 'Ramos',
+        ruolo: 'Graphic Designer',
+        foto:''  
     },
 ]
 

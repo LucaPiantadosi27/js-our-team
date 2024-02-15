@@ -1,9 +1,15 @@
-div{
+/* div{
   background-color: aqua;
-}
+} */
+
 .card-people {
   /* border: solid red; */
   text-align: center;
   margin-top: 25px;
   border: 2px solid rgba(56, 56, 55, 0.356);
  }
+
+ .card-people:hover {
+  scale: 1.1;
+  cursor:pointer;
+}
