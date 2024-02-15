@@ -18,38 +18,38 @@ let peapole = [
         nome: 'Wayne ',
         cognome: 'Barnett',
         ruolo: 'Founder & CEO',
-        foto:''
+        foto:'wayne-barnett-founder-ceo.jpg'
     },
     {
         nome: 'Angela  ',
         cognome: 'Caroll',
         ruolo: 'Chief Editor',
-        foto:''  
+        foto:'angela-caroll-chief-editor.jpg'  
     },
     {
         nome: 'Walter',
         cognome: 'Gordon',
         ruolo: 'Office Manager',
-        foto:''  
+        foto:'walter-gordon-office-manager.jpg'  
     },
     {
         nome: 'Angela',
         cognome: 'Lopez',
         ruolo: 'Social Media Manager',
-        foto:''  
+        foto:'angela-lopez-social-media-manager.jpg'  
     },
     {
         nome: 'Scott',
         cognome: 'Estrada',
         ruolo: 'Developer',
-        foto:''  
+        foto:'scott-estrada-developer.jpg'  
     },
     {
         nome: 'Barbara',
         cognome: 'Ramos',
         ruolo: 'Graphic Designer',
-        foto:''  
-    },
+        foto:'barbara-ramos-graphic-designer.jpg'  
+    }
 ]
 
 // Inizio ciclo for 
